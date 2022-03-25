@@ -3,22 +3,33 @@ header {
   background-color: #004175;
   color: white;
   padding: 1rem 1rem 1rem 1rem;
-  margin: -10px -10px -10px -10px;
   border-bottom: solid #89deef 3px;
   text-indent: 20px;
+  width: 81%;
+  margin-top: -10px;
 }
 
 body {
   font-family: "open sans";
+  display: flex;
+  align-items: flex-start;
 }
 
 .dogprofile {
   font-family: "Oswald";
-  display: flexbox 280px;
+  display: flex 320px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  margin-left: 5px;
+  width: auto;
+}
+
+#main {
+  width: 90%;
 }
 
 img {
-  width: 280px;
+  width: 100%;
   margin-bottom: -20px;
   margin-top: -30px;
 }
@@ -28,6 +39,7 @@ ul {
   flex-direction: row;
   margin-left: -42px;
   margin-top: -20px;
+  flex-wrap: wrap;
 }
 
 ol {
@@ -38,6 +50,28 @@ ol {
   border-radius: 10px;
   padding: 0.2rem;
   display: inline-flex;
-  flex-wrap: wrap;
   margin: 2px;
 }
+
+#row1 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 80%;
+}
+
+#row2 {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 80%;
+}
+
+#row3 {
+   display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 80%;
+
+
+aside 
