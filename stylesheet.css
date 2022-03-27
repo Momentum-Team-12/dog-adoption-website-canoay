@@ -2,17 +2,25 @@ header {
   font-family: "Open Sans";
   background-color: #004175;
   color: white;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 2%;
   border-bottom: solid #89deef 3px;
   text-indent: 20px;
-  width: 81%;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 body {
   font-family: "open sans";
+  font-size: 13px;
   display: flex;
   align-items: flex-start;
+  background-color: #f2f2f2;
+  opacity: 2;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#intro {
+  text-indent: 4%;
 }
 
 .dogprofile {
@@ -20,17 +28,17 @@ body {
   display: flex 320px;
   margin-top: 30px;
   flex-wrap: wrap;
-  margin-left: 5px;
+  margin-left: 1%;
   width: auto;
 }
 
 #main {
-  width: 90%;
+  width: 100%;
+  background-color: white;
 }
 
 img {
   width: 100%;
-  margin-bottom: -20px;
   margin-top: -30px;
 }
 
@@ -53,25 +61,44 @@ ol {
   margin: 2px;
 }
 
-#row1 {
+.row {
   display: flex;
   justify-content: flex-start;
   flex-direction: row;
-  width: 80%;
+  width: 90%;
+  margin-left: 3%;
+  margin-right: 20%;
 }
 
-#row2 {
+footer {
   display: flex;
-  justify-content: flex-start;
   flex-direction: row;
-  width: 80%;
+  justify-content: space-around;
+  margin-top: 5%;
+  background: linear-gradient(rgba(109, 65, 185, 0.5), rgba(109, 65, 185, 0.5)),
+    url("starter_files/images/donate.jpg"),
+    url(starter_files/images/volunteer.jpg),
+    url(starter_files/images/location.png);
+
+  background: linear-gradient(rgba(109, 65, 185, 0.5), rgba(109, 65, 185, 0.5)),
+    url(starter_files/images/volunteer.jpg);
 }
 
-#row3 {
-   display: flex;
-  justify-content: flex-start;
+li {
+  list-style: none;
+  color: white;
+  display: flex;
   flex-direction: row;
-  width: 80%;
+  font-family: "Oswald";
+  font-size: 150%;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+}
 
-
-aside 
+.footerimg {
+  /* background: linear-gradient(rgba(105, 4, 156, 0.5), rgba(105, 4, 106, 0.8)), */
+  /* url("starter_files/images/donate.jpg"); */
+  /* url(starter_files/images/volunteer.jpg); */
+  /* url(starter_files/images/location.png); */
+}
