@@ -26,9 +26,10 @@ body {
 .dogprofile {
   font-family: "Oswald";
   display: flex 320px;
-  margin-top: 30px;
+  margin-top: -1%;
   flex-wrap: wrap;
   margin-left: 1%;
+  margin-bottom: 4%;
   width: auto;
 }
 
@@ -39,14 +40,15 @@ body {
 
 img {
   width: 100%;
-  margin-top: -30px;
+  margin-top: -3%;
+  margin-bottom: -5%;
 }
 
 ul {
   display: flex;
   flex-direction: row;
   margin-left: -42px;
-  margin-top: -20px;
+  margin-top: -4%;
   flex-wrap: wrap;
 }
 
@@ -67,38 +69,66 @@ ol {
   flex-direction: row;
   width: 90%;
   margin-left: 3%;
-  margin-right: 20%;
 }
 
 footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 5%;
-  background: linear-gradient(rgba(109, 65, 185, 0.5), rgba(109, 65, 185, 0.5)),
-    url("starter_files/images/donate.jpg"),
-    url(starter_files/images/volunteer.jpg),
-    url(starter_files/images/location.png);
-
-  background: linear-gradient(rgba(109, 65, 185, 0.5), rgba(109, 65, 185, 0.5)),
-    url(starter_files/images/volunteer.jpg);
-}
-
-li {
-  list-style: none;
-  color: white;
-  display: flex;
-  flex-direction: row;
   font-family: "Oswald";
-  font-size: 150%;
-  justify-content: flex-start;
-  align-items: stretch;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
   width: 100%;
+  height: 170px;
 }
 
-.footerimg {
-  /* background: linear-gradient(rgba(105, 4, 156, 0.5), rgba(105, 4, 106, 0.8)), */
-  /* url("starter_files/images/donate.jpg"); */
-  /* url(starter_files/images/volunteer.jpg); */
-  /* url(starter_files/images/location.png); */
+.fcard {
+  font-family: "Oswald";
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: nowrap;
+  width: 270%;
+  height: 170%;
+  align-items: center;
+}
+
+#Donate {
+  justify-content: center;
+  /* align-items: center; */
+  color: white;
+  text-align: center;
+  background: linear-gradient(
+      rgba(189, 159, 229, 0.66),
+      rgba(189, 159, 229, 0.66)
+    ),
+    url(/starter_files/images/donate.jpg);
+  background-repeat: no-repeat;
+  background-size: 150% cover;
+  background-position: center;
+}
+
+#Volunteer {
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background: linear-gradient(
+      rgba(189, 159, 229, 0.66),
+      rgba(189, 159, 229, 0.66)
+    ),
+    url(/starter_files/images/volunteer.jpg);
+  background-repeat: no-repeat;
+  background-size: 110% cover;
+  background-position: center;
+}
+
+#Location {
+  justify-content: center;
+  color: white;
+  text-align: center;
+  background: linear-gradient(
+      rgba(189, 159, 229, 0.66),
+      rgba(189, 159, 229, 0.66)
+    ),
+    url(/starter_files/images/location.png);
+  background-repeat: no-repeat;
+  background-size: 110% cover;
+  background-position: center;
 }
